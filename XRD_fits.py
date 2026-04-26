@@ -65,7 +65,24 @@ def fits_to_dataframe(fits, pressures=None):
                 "delta_err_hess": np.nan,
                 "x2_err_hess": np.nan,
             })
-
+        
+        # Amplitude errors and ratio errors
+        if getattr(fit, "amp_errs", None) is not None:
+            row.update({
+                "A1_err_hess": fit.amp_errs.get("A1_err_hess", np.nan),
+                "A2_err_hess": fit.amp_errs.get("A2_err_hess", np.nan),
+                "A1_A2_cov": fit.amp_errs.get("A1_A2_cov", np.nan),
+                "A2_over_A1": fit.amp_errs.get("A2_over_A1", np.nan),
+                "A2_over_A1_err": fit.amp_errs.get("A2_over_A1_err", np.nan),
+            })
+        else:
+            row.update({
+                "A1_err_hess": np.nan,
+                "A2_err_hess": np.nan,
+                "A1_A2_cov": np.nan,
+                "A2_over_A1": np.nan if (fit.A1 is None or fit.A1 == 0) else fit.A2 / fit.A1,
+                "A2_over_A1_err": np.nan,
+            })
         # Profile errors
         if fit.prof_x0 is not None:
             row.update({
@@ -94,8 +111,8 @@ def fits_to_dataframe(fits, pressures=None):
             "x2_errp_prof": getattr(fit, "x2_errp_prof", np.nan),
         })
 
-        # Derived quantities
-        row["A2_over_A1"] = np.nan if (fit.A1 is None or fit.A1 == 0) else fit.A2 / fit.A1
+        # # Derived quantities
+        # row["A2_over_A1"] = np.nan if (fit.A1 is None or fit.A1 == 0) else fit.A2 / fit.A1 #no longer using, getting from full covariance now
 
         rows.append(row)
 
@@ -175,6 +192,7 @@ class PeakFitXRD:
         self.cov1 = None
         self.cov2 = None
         self.hess_errs = None
+        self.amp_errs = None
         self.prof_A2 = None
         self.prof_delta = None
         self.prof_x0 = None
@@ -437,6 +455,44 @@ class PeakFitXRD:
             "x2_err_hess": x2_err_hess,
         }
         return self.hess_errs
+    
+    
+    def compute_amplitude_errors(self):
+        if self.cov2 is None:
+            self.compute_covariances()
+
+        cov = self.cov2["cov"]
+
+        A1 = self.A1
+        A2 = self.A2
+
+        A1_err = np.sqrt(np.abs(cov[0, 0]))
+        A2_err = np.sqrt(np.abs(cov[4, 4]))
+        A1_A2_cov = cov[0, 4]
+
+        if A1 is None or A1 == 0:
+            R = np.nan
+            R_err = np.nan
+        else:
+            R = A2 / A1
+
+            var_R = (
+                (A2 / A1**2)**2 * A1_err**2
+                + (1 / A1)**2 * A2_err**2
+                - 2 * (A2 / A1**3) * A1_A2_cov
+            )
+
+            R_err = np.sqrt(np.abs(var_R))
+
+        self.amp_errs = {
+            "A1_err_hess": A1_err,
+            "A2_err_hess": A2_err,
+            "A1_A2_cov": A1_A2_cov,
+            "A2_over_A1": R,
+            "A2_over_A1_err": R_err,
+        }
+
+        return self.amp_errs
 
     # ============================================================
     # Profile methods
@@ -619,9 +675,11 @@ class PeakFitXRD:
         self.fit_two_peak_multistart()
         self.compute_covariances()
         self.compute_hessian_errors()
+        self.compute_amplitude_errors()
         self.compute_all_profiles()
         self.compute_components()
         self.compute_residuals()
+        
 
         if verbose:
             self.print_summary()
@@ -786,6 +844,7 @@ class PeakFitXRD:
             "cov1": self.cov1,
             "cov2": self.cov2,
             "hess_errs": self.hess_errs,
+            "amp_errs": self.amp_errs,
             "prof_A2": self.prof_A2,
             "prof_delta": self.prof_delta,
             "prof_x0": self.prof_x0,
