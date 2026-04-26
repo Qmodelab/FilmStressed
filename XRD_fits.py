@@ -16,7 +16,32 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+def compute_ratio_with_error(df):
+    d = df.copy()
 
+    if "A2_over_A1" in d.columns:
+        R = d["A2_over_A1"]
+    else:
+        R = d["A2"] / d["A1"]
+
+    if "A2_over_A1_err" in d.columns:
+        dR = d["A2_over_A1_err"]
+    elif {"A1_err_hess", "A2_err_hess", "A1_A2_cov"}.issubset(d.columns):
+        A1 = d["A1"]
+        A2 = d["A2"]
+
+        var_R = (
+            (A2 / A1**2)**2 * d["A1_err_hess"]**2
+            + (1 / A1)**2 * d["A2_err_hess"]**2
+            - 2 * (A2 / A1**3) * d["A1_A2_cov"]
+        )
+
+        dR = np.sqrt(np.abs(var_R))
+    else:
+        dR = np.full(len(d), np.nan)
+
+    return R, dR
+    
 def fits_to_dataframe(fits, pressures=None):
     """
     Convert a list of PeakFitXRD objects into a tidy summary dataframe.
