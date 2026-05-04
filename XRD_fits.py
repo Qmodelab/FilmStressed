@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mticker
 from scipy.optimize import minimize, approx_fprime
 from scipy.special import voigt_profile
 from math import lgamma
@@ -12,11 +13,12 @@ from matplotlib import rcParams
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+
 
 def compute_ratio_with_error(df):
+    """
+    helper function for calculating error bars of ratios of amplitues
+    """
     d = df.copy()
 
     if "A2_over_A1" in d.columns:
