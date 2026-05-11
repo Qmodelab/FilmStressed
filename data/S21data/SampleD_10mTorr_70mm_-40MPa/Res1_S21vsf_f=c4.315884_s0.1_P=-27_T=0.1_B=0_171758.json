@@ -1,0 +1,11 @@
+{
+    "IF (Hz)": 1250.0,
+    "avg": 58.0,
+    "centerFreq (GHz)": 4.315884,
+    "faaTemp (K)": 0.10000081684084536,
+    "fieldStrength (uT)": 0,
+    "measuredCurr (A)": 0.0,
+    "numPoints": 700.0,
+    "power (dBm)": -27,
+    "span (MHz)": 0.1
+}
