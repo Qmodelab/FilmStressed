@@ -1794,6 +1794,250 @@ SU_6mTorr_70mm_NJRes2_QcErr_Temp = np.array([1019.77, 700.46,1094.42,1071.1 ,102
 1000.73, 713.67, 799.57, 571.41, 629.29, 694.26, 561.9 , 775.13, 665.85,
   790.51,1200.48,2019.79,2687.38,5765.36,4579.85])
 
+SU_6mTorr_70mm_NJRes1_freqErr_Temp = np.array([  2.2 ,  2.85,  1.34,  1.68,  2.16,  1.88,  1.86,  2.66,  3.01,  2.23,
+   2.29,  2.19,  2.38,  2.27,  2.21,  2.11,  3.04,  4.51,  7.47, 22.33,
+  63.03,175.89,392.09,778.61])
+SU_6mTorr_70mm_NJRes2_freqErr_Temp = np.array([3.19e+00,1.97e+00,2.80e+00,2.88e+00,2.43e+00,1.61e+00,1.35e+00,2.10e+00,
+3.06e+00,2.47e+00,1.93e+00,2.23e+00,1.61e+00,1.86e+00,2.21e+00,2.17e+00,
+4.07e+00,5.37e+00,1.59e+01,5.65e+01,1.87e+02,4.64e+02,1.40e+03,2.20e+03])
+ 
+CU_WaferTrade_2mTorr_250mmRes1_freqErr_Temp = np.array([1.29,0.82,0.84,0.63,0.63,0.65,0.57,0.61,0.56,0.67,0.6 ,0.65,0.64,0.83,
+0.98,1.1 ,1.43])
+CU_WaferTrade_2mTorr_250mmRes2_freqErr_Temp = np.array([0.74,0.88,0.42,0.44,0.46,0.5 ,0.58,0.6 ,0.68,0.81,0.61,0.56,0.41,0.75,
+0.92,0.99,1.12])
+CU_WaferTrade_2mTorr_250mmRes3_freqErr_Temp = np.array([1.09,1.29,1.07,0.9 ,0.88,0.87,1.04,0.62,0.72,0.84,1.05,1.17,1.22,1.43,
+1.49,1.73,2.08])
+ 
+SU_6mTorr_70mmRes1_freqErr_Temp = np.array([3.13e-01,2.32e-01,2.10e-01,1.61e-01,1.88e-01,1.76e-01,1.45e-01,1.25e-01,
+1.95e-01,1.49e-01,2.01e-01,1.81e-01,1.94e-01,2.53e-01,3.22e-01,3.90e-01,
+5.13e-01,1.07e+00,3.16e+00,6.62e+00,2.11e+01,7.51e+01,1.27e+02,2.84e+02])
+SU_6mTorr_70mmRes2_freqErr_Temp = np.array([6.56e-01,4.09e-01,4.58e-01,4.35e-01,3.49e-01,4.30e-01,1.69e-01,3.57e-01,
+4.00e-01,3.13e-01,3.86e-01,6.89e-01,2.98e-01,3.65e-01,4.21e-01,4.59e-01,
+7.37e-01,7.84e-01,2.18e+00,6.23e+00,1.70e+01,6.29e+01,1.20e+02,3.05e+02])
+SU_6mTorr_70mmRes3_freqErr_Temp = np.array([1.57e+00,1.08e+00,6.39e-01,6.62e-01,4.64e-01,4.92e-01,5.50e-01,2.41e-01,
+4.76e-01,6.16e-01,2.86e-01,2.80e-01,4.55e-01,7.30e-01,6.14e-01,5.21e-01,
+9.12e-01,1.24e+00,3.42e+00,9.13e+00,2.73e+01,7.48e+01,1.59e+02,5.41e+02])
+ 
+SU_6mTorr_30mmRes1_freqErr_Temp = np.array([  0.95,  0.89,  0.86,  0.83,  0.77,  0.8 ,  0.8 ,  0.94,  0.91,  1.15,
+   1.34,  1.5 ,  1.92,  3.38,  3.8 ,  4.96,  7.2 , 14.41, 10.82, 15.86,
+  18.45, 22.69, 64.49, 55.78, 99.91,119.78,146.81,188.69,228.68,292.75,
+372.66,447.93,473.14,602.55,667.39])
+SU_6mTorr_30mmRes2_freqErr_Temp = np.array([9.91e-01,7.36e-01,6.94e-01,6.39e-01,6.69e-01,5.94e-01,6.26e-01,6.61e-01,
+6.90e-01,9.26e-01,1.40e+00,1.79e+00,2.51e+00,4.40e+00,5.04e+00,7.08e+00,
+1.11e+01,1.26e+01,2.04e+01,2.09e+01,2.40e+01,4.36e+01,4.61e+01,6.97e+01,
+1.06e+02,9.02e+01,1.57e+02,1.49e+02,1.94e+02,2.82e+02,3.23e+02,4.50e+02,
+6.02e+02,7.77e+02,8.61e+02])
+SU_6mTorr_30mmRes3_freqErr_Temp = np.array([1.30e+00,1.26e+00,1.25e+00,1.05e+00,1.07e+00,1.21e+00,1.15e+00,1.16e+00,
+1.51e+00,1.80e+00,2.63e+00,3.17e+00,4.29e+00,7.56e+00,9.30e+00,1.22e+01,
+2.16e+01,1.94e+01,2.92e+01,3.24e+01,3.78e+01,6.37e+01,6.38e+01,9.24e+01,
+1.15e+02,1.38e+02,1.77e+02,2.22e+02,2.86e+02,3.78e+02,4.50e+02,6.25e+02,
+8.41e+02,1.20e+03,1.05e+03])
+SU_6mTorr_30mmRes4_freqErr_Temp = np.array([1.18e+00,9.85e-01,1.03e+00,1.14e+00,8.70e-01,1.03e+00,1.08e+00,1.13e+00,
+1.37e+00,1.79e+00,2.72e+00,5.53e+00,6.95e+00,2.27e+01,2.82e+01,4.86e+01,
+3.42e+01,4.22e+01,4.68e+01,7.80e+01,6.36e+01,9.69e+01,1.22e+02,1.25e+02,
+1.78e+02,1.82e+02,2.48e+02,3.01e+02,3.70e+02,4.84e+02,6.10e+02,8.38e+02,
+1.08e+03,1.32e+03,1.24e+03])
+SU_6mTorr_30mmRes5_freqErr_Temp = np.array([   1.63,   1.69,   1.65,   1.69,   1.63,   1.69,   1.58,   1.73,   2.06,
+    2.63,   3.62,   3.92,  10.09,  12.05,  17.75,  23.62,  24.6 ,  56.25,
+   48.11,  71.64,  97.07, 150.84, 153.18, 219.15, 239.62, 252.49, 369.58,
+  405.23, 358.09, 523.28, 543.89, 798.65, 916.33,1224.95,1441.1 ])
+SU_6mTorr_30mmRes6_freqErr_Temp = np.array([   4.84,   4.49,   4.61,   4.5 ,   4.66,   4.78,   5.15,   5.26,   6.63,
+    7.55,   9.27,  14.83,  23.04,  23.2 ,  36.96,  50.66,  64.47,  85.42,
+  116.91, 147.76, 215.41, 299.01, 337.97, 392.87, 401.65, 536.91, 499.43,
+  543.38, 781.11, 623.56, 877.37,1425.07,1553.89,1829.38,2741.04])
+SU_6mTorr_30mmRes7_freqErr_Temp = np.array([   6.21,   6.34,   6.05,   6.05,   5.83,   5.85,   5.47,   6.25,   5.58,
+    7.5 ,   9.2 ,  10.19,  14.01,  20.57,  30.61,  43.27,  58.53,  71.9 ,
+  112.69, 129.97, 161.46, 264.36, 299.72, 341.94, 386.87, 406.76, 380.71,
+  440.35, 536.96, 588.46, 626.46, 998.65,1234.95,1530.73,2160.51])
+ 
+SU_10mTorr_70mmRes1_freqErr_Temp = np.array([   2.97,   3.42,   3.45,   2.47,   2.96,   2.83,   3.03,   2.93,   2.89,
+    2.34,   2.72,   3.57,   3.85,   4.35,   4.86,   6.86,  15.52,  44.86,
+  116.3 , 336.51, 503.22,1199.73])
+SU_10mTorr_70mmRes2_freqErr_Temp = np.array([2.24e+00,1.71e+00,1.57e+00,1.25e+00,1.26e+00,1.13e+00,1.19e+00,1.58e+00,
+1.76e+00,1.74e+00,1.32e+00,1.28e+00,2.47e+00,2.51e+00,2.48e+00,4.02e+00,
+1.50e+01,7.09e+01,2.54e+02,5.57e+02,7.34e+02,1.65e+03])
+SU_10mTorr_70mmRes3_freqErr_Temp = np.array([1.80e+00,1.25e+00,1.66e+00,1.28e+00,6.41e-01,9.60e-01,5.08e-01,3.60e-01,
+3.86e-01,4.32e-01,4.50e-01,6.82e-01,1.04e+00,1.12e+00,1.48e+00,2.54e+00,
+1.14e+01,3.95e+01,8.17e+01,3.03e+02,5.60e+02,1.04e+03])
+SU_10mTorr_70mmRes4_freqErr_Temp = np.array([1.28e+00,1.98e+00,9.68e-01,1.44e+00,1.36e+00,9.39e-01,7.72e-01,8.56e-01,
+7.03e-01,6.17e-01,6.99e-01,9.11e-01,1.39e+00,1.56e+00,2.06e+00,4.92e+00,
+1.36e+01,4.67e+01,1.32e+02,3.81e+02,9.90e+02,1.79e+03])
+ 
+SU_2mTorr_70mmRes1_freqErr_Temp = np.array([6.84e+02,7.17e+02,7.84e+02,8.08e+02,8.19e+02,1.07e+03,1.46e+03,2.92e+03,
+2.13e+03,1.77e+03,2.13e+03,2.38e+03,3.57e+03,4.36e+03,4.91e+03,6.63e+03,
+1.20e+04,3.23e+04,4.01e+04,2.19e+05,2.30e-01,7.38e+06])
+SU_2mTorr_70mmRes2_freqErr_Temp = np.array([  211.65,  263.96,  268.36,  253.47,  242.2 ,  254.93,  265.03,  308.62,
+   383.38,  493.12,  498.76,  822.01,  788.7 ,  882.84,  995.67, 1371.22,
+  2206.42, 3068.33, 4796.56, 7178.83,10382.68,17617.58])
+SU_2mTorr_70mmRes3_freqErr_Temp = np.array([  190.63,  193.79,  205.76,  233.28,  244.76,  239.99,  297.35,  283.54,
+   307.3 ,  351.15,  405.66,  583.41,  597.31,  643.52,  817.06,  977.65,
+  1675.46, 2466.1 , 3478.91, 5210.16, 8752.07,19359.77])
+SU_2mTorr_70mmRes4_freqErr_Temp = np.array([  707.01, 1192.17,  762.51,  951.16, 1003.23, 1256.32,  709.32,  829.68,
+   856.93, 1049.84, 1020.25, 1204.12, 1504.12, 1730.02, 1860.48, 2181.37,
+  3284.07, 5050.33, 6900.63,14799.12,16665.37,27483.78])
+ 
+#SU_6mTorr_70mm_NJ
+#Res1
+SU_6mTorr_70mm_NJRes1_PowerFreqErr=np.array([830.814998  ,693.333406  ,341.938938  ,281.185508  ,180.6259544 ,
+107.6459922 , 72.492616  , 50.7578516 , 42.4849784 , 34.502169  ,
+  17.35759244, 16.5799329 , 13.62931176,  7.81080464,  8.6063407 ,
+   5.61049914,  5.23941962,  7.17441006,  3.7223557 ,  3.96022556,
+   3.8922678 ,  3.85624008,  3.49076122])
+#Res2
+SU_6mTorr_70mm_NJRes2_PowerFreqErr=np.array([435.349216  ,263.340286  ,186.227714  ,182.0983124 ,122.87195   ,
+  63.551994  , 36.529611  , 35.0762634 , 19.8524757 , 12.59503686,
+   8.80581636,  6.41295058,  4.95637856,  4.97580606,  4.315899  ,
+   3.09047708,  3.77823022,  3.44336392,  7.8704677 ,  3.7600489 ,
+   3.26895542])
+ 
+#CU_WaferTrade_2mTorr_250mm
+#Res1
+CU_WaferTrade_2mTorr_250mmRes1_PowerFreqErr=np.array([261.064156   ,229.227612   ,111.1997514  , 70.7689242  , 47.0606832  ,
+  34.4945648  , 18.64294126 , 13.69306792 ,  9.11439108 ,  6.18787362 ,
+   5.34611676 ,  3.8445514  ,  2.75883054 ,  2.3070493  ,  2.21779246 ,
+   2.23722886 ,  2.03100638 ,  1.290546006,  1.154434876,  1.139376808,
+   0.93455997 ,  1.168369736,  1.07966983 ])
+#Res2
+CU_WaferTrade_2mTorr_250mmRes2_PowerFreqErr=np.array([210.616322   ,215.665946   ,153.2791266  ,129.0003     , 59.1518298  ,
+  36.4191656  , 35.7243736  , 25.3779022  , 13.75559554 , 11.46654938 ,
+  11.54035082 ,  7.5657718  ,  5.73009948 ,  4.09988524 ,  3.17879844 ,
+   2.29240976 ,  2.09629338 ,  1.856065326,  1.511662806,  1.438949728,
+   1.167717152,  0.708913318,  0.606234644])
+#Res3
+CU_WaferTrade_2mTorr_250mmRes3_PowerFreqErr=np.array([400.039336  ,334.61033   ,188.9846718 ,150.0968936 , 94.738259  ,
+  69.2803248 , 51.3230356 , 32.174562  , 30.2644876 , 14.51922662,
+  14.70815766,  9.35050456,  7.97266044,  5.55684434,  4.78225202,
+   3.5649309 ,  3.31589046,  2.8976275 ,  2.5782832 ,  2.17427782,
+   2.04778496,  2.29887722,  3.19332978])
+ 
+#SU_6mTorr_70mm
+#Res1
+SU_6mTorr_70mmRes1_PowerFreqErr=np.array([6.871231040e+02,3.874557040e+02,3.986030720e+02,1.550674056e+02,
+1.278698616e+02,9.727736520e+01,6.392217560e+01,4.634179260e+01,
+2.222409580e+01,1.528229130e+01,7.672504740e+00,6.042842680e+00,
+4.555188020e+00,3.462392500e+00,2.225750980e+00,1.753125416e+00,
+1.684148570e+00,1.792440732e+00,1.599405096e+00,7.964215640e-01,
+6.186833240e-01,5.418115340e-01,5.760436140e-01,4.903170260e-01,
+4.316050720e-01,5.172563780e-01,4.357292460e-01,5.687596860e-01])
+#Res2
+SU_6mTorr_70mmRes2_PowerFreqErr=np.array([1.060195486e+03,4.407410080e+02,3.507320040e+02,2.960969080e+02,
+1.817476334e+02,1.560003352e+02,7.537312860e+01,6.131723120e+01,
+4.465486760e+01,2.997402660e+01,2.131559840e+01,1.252689270e+01,
+1.451085692e+01,9.856753720e+00,5.142634320e+00,3.985692740e+00,
+3.647393060e+00,3.871792060e+00,1.982907960e+00,2.013026620e+00,
+2.102168040e+00,1.189154550e+00,1.341742752e+00,9.405912140e-01,
+1.368262124e+00,1.679588660e+00,9.307040980e-01,1.176658582e+00])
+#Res3
+SU_6mTorr_70mmRes3_PowerFreqErr=np.array([1.797398024e+03,1.347195922e+03,9.354337800e+02,5.416583280e+02,
+3.449822660e+02,2.237577640e+02,1.409790602e+02,8.227213300e+01,
+6.322443620e+01,4.019535020e+01,2.856382380e+01,1.787888682e+01,
+1.273504724e+01,1.067760604e+01,6.729074280e+00,5.970482740e+00,
+7.416690860e+00,4.822200480e+00,2.876246600e+00,5.436344940e+00,
+3.136479700e+00,2.265070420e+00,2.543341720e+00,1.615315934e+00,
+1.468111634e+00,1.326060174e+00,1.915787012e+00,1.416255996e+00])
+ 
+#SU_6mTorr_30mm
+#Res1
+SU_6mTorr_30mmRes1_PowerFreqErr=np.array([1.767798874,3.19625014 ,1.457769414,2.64305338 ,1.276140402,2.18745634 ,
+1.46480452 ,1.729848378,1.319698018,0.768804292,0.769712154,0.624486242,
+0.874454112,0.896886958,0.69812401 ,0.537681144,0.49594223 ,0.644684142,
+0.368745676,0.449557598,0.439276446,0.431271486,0.352968706,0.323003048,
+0.315536086,0.357352094,0.299117974,0.379833192,0.294107824,0.374381914,
+0.33279864 ,0.383242364,0.526495298,0.467870128])
+#Res2
+SU_6mTorr_30mmRes2_PowerFreqErr=np.array([3.1670472  ,2.07607708 ,1.399579174,1.388243388,1.36516874 ,1.110459512,
+0.844301456,0.589085062,0.500448272,0.350999482,0.337226658,0.30530356 ,
+0.36910029 ,0.284453316,0.248692676,0.388781406,0.637703438])
+#Res3
+SU_6mTorr_30mmRes3_PowerFreqErr=np.array([3.91416844 ,3.471697   ,2.33482046 ,2.77405434 ,1.520336364,1.293613994,
+1.16028212 ,0.741595514,0.672377808,0.429726382,0.36544256 ,0.30678438 ,
+0.321612108,0.24462319 ,0.225237554,0.288225972,0.487968404])
+#Res4
+SU_6mTorr_30mmRes4_PowerFreqErr=np.array([4.44429228 ,3.54129522 ,2.16346678 ,2.51406892 ,1.638998354,1.531170438,
+1.0419722  ,0.879233106,0.647061246,0.529217498,0.46722416 ,0.32653466 ,
+0.351550926,0.316631558,0.230893646,0.235186186,0.332623588])
+#Res5
+SU_6mTorr_30mmRes5_PowerFreqErr=np.array([7.55717386 ,5.09746338 ,4.6801342  ,3.5928324  ,2.70936142 ,2.11749142 ,
+1.656408218,1.606296422,1.298913212,0.92842203 ,0.859321796,0.749633582,
+0.678979488,0.582742146,0.58685931 ,0.449172406,4.04610306 ])
+#Res6
+SU_6mTorr_30mmRes6_PowerFreqErr=np.array([17.088765   ,14.18257608 ,10.39755084 , 9.14846842 , 6.94061054 ,
+  5.13895584 , 4.40084094 , 3.63738944 , 2.92607956 , 2.3098882  ,
+  2.17208574 , 1.877618828, 1.660207514, 1.510021672, 1.570883586,
+  1.910506   , 3.00561822 ])
+ 
+#SU_10mTorr_70mm
+#Res1
+SU_10mTorr_70mmRes1_PowerFreqErr=np.array([587.32032   ,282.67789   ,174.8575758 ,109.2541704 , 78.5802678 ,
+  52.566552  , 34.254966  , 19.77873976, 15.72164992, 12.03470818,
+   7.2179682 ,  5.25029384,  4.21118652,  3.29558008,  1.96115562,
+   2.6421245 ,  2.47562508,  2.77061944,  2.84361156,  2.27037818,
+   3.1980524 ,  4.78705814,  4.4104626 ])
+#Res2
+SU_10mTorr_70mmRes2_PowerFreqErr=np.array([375.46723    ,405.21909    ,194.4481914  ,124.2022924  , 89.5663266  ,
+  55.8522928  , 26.4131868  , 21.0301624  , 14.73805312 ,  9.39965536 ,
+   7.6081405  ,  4.94665794 ,  3.9566397  ,  2.95415942 ,  2.54850482 ,
+   2.43733144 ,  1.669550618,  1.707317272,  1.284331352,  1.27097665 ,
+   1.651658336,  2.94752052 ,  6.58575886 ])
+#Res3
+SU_10mTorr_70mmRes3_PowerFreqErr=np.array([280.60978    ,258.284836   ,122.3771248  , 77.894969   , 48.6829986  ,
+  33.629418   , 17.21719258 , 10.94696104 ,  8.67719626 ,  5.62384432 ,
+   4.1563809  ,  3.20723372 ,  2.7944923  ,  8.5947965  ,  7.08331524 ,
+   4.98963978 ,  5.27769548 ,  2.43942772 ,  1.815164618,  0.940827688,
+   1.087023036,  1.294660682,  0.726763102])
+#Res4
+SU_10mTorr_70mmRes4_PowerFreqErr=np.array([365.390698   ,291.618524   ,186.4203424  ,156.8033408  ,109.3558026  ,
+  68.356286   , 33.3019668  , 21.342361   , 17.54167744 , 11.54288334 ,
+   7.7704334  ,  4.42507456 ,  4.36177504 ,  2.80902312 ,  2.61554026 ,
+   3.40880396 ,  2.31158472 ,  2.01680086 ,  1.556203248,  1.778553762,
+   1.664518422,  2.38157912 ,  2.03058654 ])
+#Res5
+SU_10mTorr_70mmRes5_PowerFreqErr=np.array([843.2414    ,741.426816  ,537.234338  ,394.978518  ,329.258098  ,
+205.734276  ,133.7491752 ,102.0541062 , 68.2990798 , 48.646467  ,
+  46.5383682 , 27.6968986 , 22.9674976 , 18.8043811 , 14.52091816,
+  12.1708823 , 10.04351366,  7.46760414,  5.0947671 ,  8.04699692,
+  16.64354624, 28.6848862 , 41.2162998 ])
+#Res6
+SU_10mTorr_70mmRes6_PowerFreqErr=np.array([493.756944   ,471.857216   ,192.059681   ,123.9645468  , 82.8507314  ,
+  49.453047   , 39.5173772  , 23.2846912  , 15.88433838 , 13.43271118 ,
+   6.86329946 ,  5.92204096 ,  3.84460898 ,  3.31977736 ,  2.55905326 ,
+   2.46047992 ,  1.860722008,  1.941668564,  1.95714386 ,  1.892958888,
+   1.500478036,  1.21245819 ,  2.23523766 ])
+#Res7
+SU_10mTorr_70mmRes7_PowerFreqErr=np.array([247.528818   ,221.548814   ,223.06931    ,140.7078808  , 85.3260774  ,
+  45.275567   , 30.230994   , 18.79970564 , 16.8029606  ,  9.46223452 ,
+   8.1163793  ,  6.6238417  ,  4.18840456 ,  4.4291275  ,  2.04066556 ,
+   2.42087312 ,  2.2178931  ,  1.733079094,  3.5450472  ,  3.57122798 ,
+   1.757551392,  3.32705364 ,  1.861907444])
+#Res8
+SU_10mTorr_70mmRes8_PowerFreqErr=np.array([353.074762   ,231.192742   ,179.2814684  ,124.7404498  , 67.1229006  ,
+  39.1038     , 25.5152404  , 19.22096178 , 15.00746032 , 13.35467892 ,
+   9.38958402 ,  5.83797306 ,  3.73342444 ,  2.3409326  ,  2.02870086 ,
+   1.55880227 ,  1.997798878,  2.00894636 ,  2.27501252 ,  1.435745084,
+   1.079204696,  1.546078716,  1.538095616])
+ 
+#SU_2mTorr_70mm
+#Res1
+SU_2mTorr_70mmRes1_PowerFreqErr=np.array([71847.2026  ,20904.1352  , 9581.00096 ,12750.54082 , 6347.8128  ,
+  4204.16388 , 3829.26062 , 2709.12268 , 2399.13628 , 1631.282208,
+  1097.555158,  880.331772,  759.23986 ,  620.774412,  500.779734,
+   417.630116,  420.079766,  325.219322])
+#Res2
+SU_2mTorr_70mmRes2_PowerFreqErr=np.array([8.722689200e+05,3.276746320e+04,4.770362480e+03,4.029692020e+03,
+3.018130300e+03,1.914207680e+03,2.036352760e+03,1.017754574e+03,
+7.751970280e+02,5.075258360e+02,3.617116760e+02,2.767383780e+02,
+2.299634560e+02,1.905132188e+02,1.590845046e+02,1.397740036e+02,
+1.265140826e+02,8.406853840e+01])
+#Res3
+SU_2mTorr_70mmRes3_PowerFreqErr=np.array([4349.65232  ,3727.96782  ,3206.5599   ,2287.4218   ,1986.350224 ,
+  985.521304 , 896.48934  , 703.57915  , 439.500676 , 347.211354 ,
+  242.838294 , 255.61897  , 166.1884826, 130.678452 , 109.992485 ,
+  106.3139526,  86.6412978])
+#Res4
+SU_2mTorr_70mmRes4_PowerFreqErr=np.array([   0.      ,   0.      ,   0.      ,9328.86836 ,5188.53414 ,3660.64372 ,
+3103.20836 ,2192.23868 ,1492.065452,1144.183246, 858.683818, 777.02104 ,
+  580.795814, 547.022456, 522.961904, 401.955462, 256.458974])
+
 
 data_dict = {
     'Sample A': {
@@ -1808,6 +2052,7 @@ data_dict = {
             'Q_Power':      SU_2mTorr_70mmRes1_Q_Arr,
             'Q_Power_err':  SU_2mTorr_70mmRes1_QErr_Arr,
             'Power_Freq':   SU_2mTorr_70mmRes1_PowerFreq,
+            'Power_Freq_err': SU_2mTorr_70mmRes1_PowerFreqErr,
         },
         'Res2': {
             'Qi_Temp':     SU_Nb_2mTorrRes2_Qi,
@@ -1818,6 +2063,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_2mTorrRes2_QErr_Temp,
             'Qc_Temp':     SU_Nb_2mTorrRes2_Qc_Temp,
             'Qc_Temp_err': SU_Nb_2mTorrRes2_QcErr_Temp,
+            'Freq_err_Temp': SU_2mTorr_70mmRes2_freqErr_Temp,
             'Qi_Power':     SU_2mTorr_70mmRes2_Qi_Arr,
             'Qi_Power_err': SU_2mTorr_70mmRes2_QiErr_Arr,
             'Num_Photon':   SU_2mTorr_70mmRes2_n_Arr,
@@ -1826,6 +2072,7 @@ data_dict = {
             'Q_Power':      SU_2mTorr_70mmRes2_Q_Arr,
             'Q_Power_err':  SU_2mTorr_70mmRes2_QErr_Arr,
             'Power_Freq':   SU_2mTorr_70mmRes2_PowerFreq,
+            'Power_Freq_err': SU_2mTorr_70mmRes2_PowerFreqErr,
         },
         'Res3': {
             'Qi_Temp':     SU_Nb_2mTorrRes3_Qi,
@@ -1836,6 +2083,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_2mTorrRes3_QErr_Temp,
             'Qc_Temp':     SU_Nb_2mTorrRes3_Qc_Temp,
             'Qc_Temp_err': SU_Nb_2mTorrRes3_QcErr_Temp,
+            'Freq_err_Temp': SU_2mTorr_70mmRes3_freqErr_Temp,
             'Qi_Power':     SU_2mTorr_70mmRes3_Qi_Arr,
             'Qi_Power_err': SU_2mTorr_70mmRes3_QiErr_Arr,
             'Num_Photon':   SU_2mTorr_70mmRes3_n_Arr,
@@ -1844,6 +2092,7 @@ data_dict = {
             'Q_Power':      SU_2mTorr_70mmRes3_Q_Arr,
             'Q_Power_err':  SU_2mTorr_70mmRes3_QErr_Arr,
             'Power_Freq':   SU_2mTorr_70mmRes3_PowerFreq,
+            'Power_Freq_err': SU_2mTorr_70mmRes3_PowerFreqErr,
         },
         'Res4': {
             'Qi_Temp':     SU_Nb_2mTorrRes4_Qi,
@@ -1854,6 +2103,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_2mTorrRes4_QErr_Temp,
             'Qc_Temp':     SU_Nb_2mTorrRes4_Qc_Temp,
             'Qc_Temp_err': SU_Nb_2mTorrRes4_QcErr_Temp,
+            'Freq_err_Temp': SU_2mTorr_70mmRes4_freqErr_Temp,
             'Qi_Power':     SU_2mTorr_70mmRes4_Qi_Arr,
             'Qi_Power_err': SU_2mTorr_70mmRes4_QiErr_Arr,
             'Num_Photon':   SU_2mTorr_70mmRes4_n_Arr,
@@ -1862,6 +2112,7 @@ data_dict = {
             'Q_Power':      SU_2mTorr_70mmRes4_Q_Arr,
             'Q_Power_err':  SU_2mTorr_70mmRes4_QErr_Arr,
             'Power_Freq':   SU_2mTorr_70mmRes4_PowerFreq,
+            'Power_Freq_err': SU_2mTorr_70mmRes4_PowerFreqErr,
         },
     },
     'Sample B': {
@@ -1876,6 +2127,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_ADR1_NoHFDipRes1_QErr_Temp,
             'Qc_Temp':     SU_Nb_ADR1_NoHFDipRes1_Qc_Temp,
             'Qc_Temp_err': SU_Nb_ADR1_NoHFDipRes1_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_30mmRes1_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_30mmRes1_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_30mmRes1_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_30mmRes1_n_Arr,
@@ -1884,6 +2136,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_30mmRes1_Q_Arr,
             'Q_Power_err':  SU_6mTorr_30mmRes1_QErr_Arr,
             'Power_Freq':   SU_6mTorr_30mmRes1_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_30mmRes1_PowerFreqErr,
         },
         'Res2': {
             'Qi_Temp':     SU_Nb_ADR1_NoHFDipRes2_Qi,
@@ -1894,6 +2147,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_ADR1_NoHFDipRes2_QErr_Temp,
             'Qc_Temp':     SU_Nb_ADR1_NoHFDipRes2_Qc_Temp,
             'Qc_Temp_err': SU_Nb_ADR1_NoHFDipRes2_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_30mmRes2_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_30mmRes2_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_30mmRes2_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_30mmRes2_n_Arr,
@@ -1902,6 +2156,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_30mmRes2_Q_Arr,
             'Q_Power_err':  SU_6mTorr_30mmRes2_QErr_Arr,
             'Power_Freq':   SU_6mTorr_30mmRes2_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_30mmRes2_PowerFreqErr,
         },
         'Res3': {
             'Qi_Temp':     SU_Nb_ADR1_NoHFDipRes3_Qi,
@@ -1912,6 +2167,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_ADR1_NoHFDipRes3_QErr_Temp,
             'Qc_Temp':     SU_Nb_ADR1_NoHFDipRes3_Qc_Temp,
             'Qc_Temp_err': SU_Nb_ADR1_NoHFDipRes3_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_30mmRes3_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_30mmRes3_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_30mmRes3_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_30mmRes3_n_Arr,
@@ -1920,6 +2176,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_30mmRes3_Q_Arr,
             'Q_Power_err':  SU_6mTorr_30mmRes3_QErr_Arr,
             'Power_Freq':   SU_6mTorr_30mmRes3_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_30mmRes3_PowerFreqErr,
         },
         'Res4': {
             'Qi_Temp':     SU_Nb_ADR1_NoHFDipRes4_Qi,
@@ -1930,6 +2187,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_ADR1_NoHFDipRes4_QErr_Temp,
             'Qc_Temp':     SU_Nb_ADR1_NoHFDipRes4_Qc_Temp,
             'Qc_Temp_err': SU_Nb_ADR1_NoHFDipRes4_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_30mmRes4_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_30mmRes4_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_30mmRes4_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_30mmRes4_n_Arr,
@@ -1938,6 +2196,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_30mmRes4_Q_Arr,
             'Q_Power_err':  SU_6mTorr_30mmRes4_QErr_Arr,
             'Power_Freq':   SU_6mTorr_30mmRes4_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_30mmRes4_PowerFreqErr,
         },
         'Res5_NoTemp': {
             'Qi_Power':     SU_6mTorr_30mmRes5_Qi_Arr,
@@ -1948,6 +2207,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_30mmRes5_Q_Arr,
             'Q_Power_err':  SU_6mTorr_30mmRes5_QErr_Arr,
             'Power_Freq':   SU_6mTorr_30mmRes5_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_30mmRes5_PowerFreqErr,
         },
         'Res6_NoTemp': {
             'Qi_Power':     SU_6mTorr_30mmRes6_Qi_Arr,
@@ -1958,6 +2218,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_30mmRes6_Q_Arr,
             'Q_Power_err':  SU_6mTorr_30mmRes6_QErr_Arr,
             'Power_Freq':   SU_6mTorr_30mmRes6_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_30mmRes6_PowerFreqErr,
         },
     },
     'Sample C': {
@@ -1972,6 +2233,7 @@ data_dict = {
             'Q_Temp_err':  Qi_TempDep_40mm_SU_NbRes1_QErr_Temp,
             'Qc_Temp':     Qi_TempDep_40mm_SU_NbRes1_Qc_Temp,
             'Qc_Temp_err': Qi_TempDep_40mm_SU_NbRes1_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_70mmRes1_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_70mmRes1_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_70mmRes1_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_70mmRes1_n_Arr,
@@ -1980,6 +2242,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_70mmRes1_Q_Arr,
             'Q_Power_err':  SU_6mTorr_70mmRes1_QErr_Arr,
             'Power_Freq':   SU_6mTorr_70mmRes1_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_70mmRes1_PowerFreqErr,
         },
         'Res2': {
             'Qi_Temp':     Qi_TempDep_40mm_SU_NbRes2_Qi,
@@ -1990,6 +2253,7 @@ data_dict = {
             'Q_Temp_err':  Qi_TempDep_40mm_SU_NbRes2_QErr_Temp,
             'Qc_Temp':     Qi_TempDep_40mm_SU_NbRes2_Qc_Temp,
             'Qc_Temp_err': Qi_TempDep_40mm_SU_NbRes2_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_70mmRes2_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_70mmRes2_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_70mmRes2_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_70mmRes2_n_Arr,
@@ -1998,6 +2262,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_70mmRes2_Q_Arr,
             'Q_Power_err':  SU_6mTorr_70mmRes2_QErr_Arr,
             'Power_Freq':   SU_6mTorr_70mmRes2_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_70mmRes2_PowerFreqErr,
         },
         'Res3': {
             'Qi_Temp':     Qi_TempDep_40mm_SU_NbRes3_Qi,
@@ -2008,6 +2273,7 @@ data_dict = {
             'Q_Temp_err':  Qi_TempDep_40mm_SU_NbRes3_QErr_Temp,
             'Qc_Temp':     Qi_TempDep_40mm_SU_NbRes3_Qc_Temp,
             'Qc_Temp_err': Qi_TempDep_40mm_SU_NbRes3_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_70mmRes3_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_70mmRes3_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_70mmRes3_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_70mmRes3_n_Arr,
@@ -2016,6 +2282,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_70mmRes3_Q_Arr,
             'Q_Power_err':  SU_6mTorr_70mmRes3_QErr_Arr,
             'Power_Freq':   SU_6mTorr_70mmRes3_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_70mmRes3_PowerFreqErr,
         },
     },
     'Sample D': {
@@ -2030,6 +2297,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_10mTorrRes1_QErr_Temp,
             'Qc_Temp':     SU_Nb_10mTorrRes1_Qc_Temp,
             'Qc_Temp_err': SU_Nb_10mTorrRes1_QcErr_Temp,
+            'Freq_err_Temp': SU_10mTorr_70mmRes1_freqErr_Temp,
             'Qi_Power':     SU_10mTorr_70mmRes1_Qi_Arr,
             'Qi_Power_err': SU_10mTorr_70mmRes1_QiErr_Arr,
             'Num_Photon':   SU_10mTorr_70mmRes1_n_Arr,
@@ -2038,6 +2306,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes1_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes1_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes1_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes1_PowerFreqErr,
         },
         'Res2': {
             'Qi_Temp':     SU_Nb_10mTorrRes2_Qi,
@@ -2048,6 +2317,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_10mTorrRes2_QErr_Temp,
             'Qc_Temp':     SU_Nb_10mTorrRes2_Qc_Temp,
             'Qc_Temp_err': SU_Nb_10mTorrRes2_QcErr_Temp,
+            'Freq_err_Temp': SU_10mTorr_70mmRes2_freqErr_Temp,
             'Qi_Power':     SU_10mTorr_70mmRes2_Qi_Arr,
             'Qi_Power_err': SU_10mTorr_70mmRes2_QiErr_Arr,
             'Num_Photon':   SU_10mTorr_70mmRes2_n_Arr,
@@ -2056,6 +2326,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes2_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes2_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes2_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes2_PowerFreqErr,
         },
         'Res3': {
             'Qi_Temp':     SU_Nb_10mTorrRes3_Qi,
@@ -2066,6 +2337,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_10mTorrRes3_QErr_Temp,
             'Qc_Temp':     SU_Nb_10mTorrRes3_Qc_Temp,
             'Qc_Temp_err': SU_Nb_10mTorrRes3_QcErr_Temp,
+            'Freq_err_Temp': SU_10mTorr_70mmRes3_freqErr_Temp,
             'Qi_Power':     SU_10mTorr_70mmRes3_Qi_Arr,
             'Qi_Power_err': SU_10mTorr_70mmRes3_QiErr_Arr,
             'Num_Photon':   SU_10mTorr_70mmRes3_n_Arr,
@@ -2074,6 +2346,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes3_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes3_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes3_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes3_PowerFreqErr,
         },
         'Res4': {
             'Qi_Temp':     SU_Nb_10mTorrRes4_Qi,
@@ -2084,6 +2357,7 @@ data_dict = {
             'Q_Temp_err':  SU_Nb_10mTorrRes4_QErr_Temp,
             'Qc_Temp':     SU_Nb_10mTorrRes4_Qc_Temp,
             'Qc_Temp_err': SU_Nb_10mTorrRes4_QcErr_Temp,
+            'Freq_err_Temp': SU_10mTorr_70mmRes4_freqErr_Temp,
             'Qi_Power':     SU_10mTorr_70mmRes4_Qi_Arr,
             'Qi_Power_err': SU_10mTorr_70mmRes4_QiErr_Arr,
             'Num_Photon':   SU_10mTorr_70mmRes4_n_Arr,
@@ -2092,6 +2366,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes4_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes4_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes4_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes4_PowerFreqErr,
         },
         'Res5_NoTemp': {
             'Qi_Power':     SU_10mTorr_70mmRes5_Qi_Arr,
@@ -2102,6 +2377,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes5_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes5_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes5_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes5_PowerFreqErr,
         },
         'Res6_NoTemp': {
             'Qi_Power':     SU_10mTorr_70mmRes6_Qi_Arr,
@@ -2112,6 +2388,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes6_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes6_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes6_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes6_PowerFreqErr,
         },
         'Res7_NoTemp': {
             'Qi_Power':     SU_10mTorr_70mmRes7_Qi_Arr,
@@ -2122,6 +2399,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes7_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes7_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes7_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes7_PowerFreqErr,
         },
         'Res8_NoTemp': {
             'Qi_Power':     SU_10mTorr_70mmRes8_Qi_Arr,
@@ -2132,6 +2410,7 @@ data_dict = {
             'Q_Power':      SU_10mTorr_70mmRes8_Q_Arr,
             'Q_Power_err':  SU_10mTorr_70mmRes8_QErr_Arr,
             'Power_Freq':   SU_10mTorr_70mmRes8_PowerFreq,
+            'Power_Freq_err': SU_10mTorr_70mmRes8_PowerFreqErr,
         },
     },
     'Sample E': {
@@ -2146,6 +2425,7 @@ data_dict = {
             'Q_Temp_err':  Cornell_to_SU_WaferTradeRes1_QErr_Temp,
             'Qc_Temp':     Cornell_to_SU_WaferTradeRes1_Qc_Temp,
             'Qc_Temp_err': Cornell_to_SU_WaferTradeRes1_QcErr_Temp,
+            'Freq_err_Temp': CU_WaferTrade_2mTorr_250mmRes1_freqErr_Temp,
             'Qi_Power':     CU_WaferTrade_2mTorr_250mmRes1_Qi_Arr,
             'Qi_Power_err': CU_WaferTrade_2mTorr_250mmRes1_QiErr_Arr,
             'Num_Photon':   CU_WaferTrade_2mTorr_250mmRes1_n_Arr,
@@ -2154,6 +2434,7 @@ data_dict = {
             'Q_Power':      CU_WaferTrade_2mTorr_250mmRes1_Q_Arr,
             'Q_Power_err':  CU_WaferTrade_2mTorr_250mmRes1_QErr_Arr,
             'Power_Freq':   CU_WaferTrade_2mTorr_250mmRes1_PowerFreq,
+            'Power_Freq_err': CU_WaferTrade_2mTorr_250mmRes1_PowerFreqErr,
         },
         'Res2': {
             'Qi_Temp':     CU_to_SU_WaferTradeRes2_Qi,
@@ -2164,6 +2445,7 @@ data_dict = {
             'Q_Temp_err':  Cornell_to_SU_WaferTradeRes2_QErr_Temp,
             'Qc_Temp':     Cornell_to_SU_WaferTradeRes2_Qc_Temp,
             'Qc_Temp_err': Cornell_to_SU_WaferTradeRes2_QcErr_Temp,
+            'Freq_err_Temp': CU_WaferTrade_2mTorr_250mmRes2_freqErr_Temp,
             'Qi_Power':     CU_WaferTrade_2mTorr_250mmRes2_Qi_Arr,
             'Qi_Power_err': CU_WaferTrade_2mTorr_250mmRes2_QiErr_Arr,
             'Num_Photon':   CU_WaferTrade_2mTorr_250mmRes2_n_Arr,
@@ -2172,6 +2454,7 @@ data_dict = {
             'Q_Power':      CU_WaferTrade_2mTorr_250mmRes2_Q_Arr,
             'Q_Power_err':  CU_WaferTrade_2mTorr_250mmRes2_QErr_Arr,
             'Power_Freq':   CU_WaferTrade_2mTorr_250mmRes2_PowerFreq,
+            'Power_Freq_err': CU_WaferTrade_2mTorr_250mmRes2_PowerFreqErr,
         },
         'Res3': {
             'Qi_Temp':     CU_to_SU_WaferTradeRes3_Qi,
@@ -2182,6 +2465,7 @@ data_dict = {
             'Q_Temp_err':  Cornell_to_SU_WaferTradeRes3_QErr_Temp,
             'Qc_Temp':     Cornell_to_SU_WaferTradeRes3_Qc_Temp,
             'Qc_Temp_err': Cornell_to_SU_WaferTradeRes3_QcErr_Temp,
+            'Freq_err_Temp': CU_WaferTrade_2mTorr_250mmRes3_freqErr_Temp,
             'Qi_Power':     CU_WaferTrade_2mTorr_250mmRes3_Qi_Arr,
             'Qi_Power_err': CU_WaferTrade_2mTorr_250mmRes3_QiErr_Arr,
             'Num_Photon':   CU_WaferTrade_2mTorr_250mmRes3_n_Arr,
@@ -2190,9 +2474,10 @@ data_dict = {
             'Q_Power':      CU_WaferTrade_2mTorr_250mmRes3_Q_Arr,
             'Q_Power_err':  CU_WaferTrade_2mTorr_250mmRes3_QErr_Arr,
             'Power_Freq':   CU_WaferTrade_2mTorr_250mmRes3_PowerFreq,
+            'Power_Freq_err': CU_WaferTrade_2mTorr_250mmRes3_PowerFreqErr,
         },
     },
- 'Sample N': {
+    'Sample N': {
         'stress':     -368,
         'stress_err': 3.48,
         'Res1': {
@@ -2204,6 +2489,7 @@ data_dict = {
             'Q_Temp_err':  SU_6mTorr_70mm_NJRes1_QErr_Temp,
             'Qc_Temp':     SU_6mTorr_70mm_NJRes1_Qc_Temp,
             'Qc_Temp_err': SU_6mTorr_70mm_NJRes1_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_70mm_NJRes1_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_70mm_NJRes1_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_70mm_NJRes1_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_70mm_NJRes1_n_Arr,
@@ -2212,6 +2498,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_70mm_NJRes1_Q_Arr,
             'Q_Power_err':  SU_6mTorr_70mm_NJRes1_QErr_Arr,
             'Power_Freq':   SU_6mTorr_70mm_NJRes1_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_70mm_NJRes1_PowerFreqErr,
         },
         'Res2': {
             'Qi_Temp':     Qi_TempDep_40mm_SU_Nb_NoJumpersRes2_Qi,
@@ -2222,6 +2509,7 @@ data_dict = {
             'Q_Temp_err':  SU_6mTorr_70mm_NJRes2_QErr_Temp,
             'Qc_Temp':     SU_6mTorr_70mm_NJRes2_Qc_Temp,
             'Qc_Temp_err': SU_6mTorr_70mm_NJRes2_QcErr_Temp,
+            'Freq_err_Temp': SU_6mTorr_70mm_NJRes2_freqErr_Temp,
             'Qi_Power':     SU_6mTorr_70mm_NJRes2_Qi_Arr,
             'Qi_Power_err': SU_6mTorr_70mm_NJRes2_QiErr_Arr,
             'Num_Photon':   SU_6mTorr_70mm_NJRes2_n_Arr,
@@ -2230,6 +2518,7 @@ data_dict = {
             'Q_Power':      SU_6mTorr_70mm_NJRes2_Q_Arr,
             'Q_Power_err':  SU_6mTorr_70mm_NJRes2_QErr_Arr,
             'Power_Freq':   SU_6mTorr_70mm_NJRes2_PowerFreq,
+            'Power_Freq_err': SU_6mTorr_70mm_NJRes2_PowerFreqErr,
         },
     },
 }
