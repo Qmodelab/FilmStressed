@@ -2038,6 +2038,19 @@ SU_2mTorr_70mmRes4_PowerFreqErr=np.array([   0.      ,   0.      ,   0.      ,93
 3103.20836 ,2192.23868 ,1492.065452,1144.183246, 858.683818, 777.02104 ,
   580.795814, 547.022456, 522.961904, 401.955462, 256.458974])
 
+AllFilm_stress_arr     = np.array([-965, -735, -581, -535, -515, -399, -391, -368, -362, -40.5])
+AllFilm_stress_arr_err = np.array([13.0, 11.4, 12.98, 9.88, 8.56, 9.80, 5.84, 3.48, 7.61, 7.00])
+AllFilm_XRDAngle_arr     = np.array([38.14, 38.04, 38.11, 38.16, 38.2, 38.42, 38.27, 38.25, 38.26, 38.23])
+AllFilm_XRDAngle_arr_err = np.array([0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01])
+AllFilm_T_c_arr        = np.array([8.93872237205505, 8.97102832794189, 8.97428703308105, 9.19321084022522,
+                                   9.24253749847412, 8.92325091362,    9.00591015815735, 8.81514406204224,
+                                   8.90849637985229, 8.73696184158325])
+AllFilm_RRR_arr        = np.array([4.065370258716744, 4.350342352705161, 3.864550409447282, 4.8323850341442744,
+                                   5.301182746969648, 3.7906637765411424, 3.819789273393594, 3.3717207935861317,
+                                   4.07549353178234,  2.9062679494849344])
+AllFilm_T_c_err_arr    = np.array([0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05])
+AllFilm_RRR_err_arr    = np.array([0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1 ])
+
 
 data_dict = {
     'Sample A': {
@@ -2519,6 +2532,22 @@ data_dict = {
             'Q_Power_err':  SU_6mTorr_70mm_NJRes2_QErr_Arr,
             'Power_Freq':   SU_6mTorr_70mm_NJRes2_PowerFreq,
             'Power_Freq_err': SU_6mTorr_70mm_NJRes2_PowerFreqErr,
+        },
+    },
+'All Film': {
+        'XRD': {
+            'Stress':     AllFilm_stress_arr,
+            'Stress_err': AllFilm_stress_arr_err,
+            'Angle':      AllFilm_XRDAngle_arr,
+            'Angle_err':  AllFilm_XRDAngle_arr_err,
+        },
+        'Transport': {
+            'Stress':     AllFilm_stress_arr,
+            'Stress_err': AllFilm_stress_arr_err,
+            'T_c':        AllFilm_T_c_arr,
+            'T_c_err':    AllFilm_T_c_err_arr,
+            'RRR':        AllFilm_RRR_arr,
+            'RRR_err':    AllFilm_RRR_err_arr,
         },
     },
 }
