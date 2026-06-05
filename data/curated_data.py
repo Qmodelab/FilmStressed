@@ -2039,7 +2039,8 @@ SU_2mTorr_70mmRes4_PowerFreqErr=np.array([   0.      ,   0.      ,   0.      ,93
   580.795814, 547.022456, 522.961904, 401.955462, 256.458974])
 
 AllFilm_stress_arr     = np.array([-965, -735, -581, -535, -515, -399, -391, -368, -362, -40.5])
-AllFilm_stress_arr_err = np.array([13.0, 11.4, 12.98, 9.88, 8.56, 9.80, 5.84, 3.48, 7.61, 7.00])
+#AllFilm_stress_arr_err = np.array([13.0, 11.4, 12.98, 9.88, 8.56, 9.80, 5.84, 3.48, 7.61, 7.00])
+AllFilm_stress_arr_err = np.array([68, 68, 38, 49, 30, 54, 20, 28, 24, 30])
 AllFilm_XRDAngle_arr     = np.array([38.14, 38.04, 38.11, 38.16, 38.2, 38.42, 38.27, 38.25, 38.26, 38.23])
 AllFilm_XRDAngle_arr_err = np.array([0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01])
 AllFilm_T_c_arr        = np.array([8.93872237205505, 8.97102832794189, 8.97428703308105, 9.19321084022522,
@@ -2055,7 +2056,7 @@ AllFilm_RRR_err_arr    = np.array([0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1
 data_dict = {
     'Sample A': {
         'stress':     -734,  
-        'stress_err': 11.4,
+        'stress_err': 70,#11.4,
         'Res1_NoTemp': {
             'Qi_Power':     SU_2mTorr_70mmRes1_Qi_Arr,
             'Qi_Power_err': SU_2mTorr_70mmRes1_QiErr_Arr,
@@ -2130,7 +2131,7 @@ data_dict = {
     },
     'Sample B': {
         'stress':     -535,  
-        'stress_err': 9.88,
+        'stress_err': 50,#9.88,
         'Res1': {
             'Qi_Temp':     SU_Nb_ADR1_NoHFDipRes1_Qi,
             'Qi_Temp_err': SU_Nb_ADR1_NoHFDipRes1_QiErr,
@@ -2236,7 +2237,7 @@ data_dict = {
     },
     'Sample C': {
         'stress':     -368,  
-        'stress_err': 3.48,
+        'stress_err': 30,#3.48,
         'Res1': {
             'Qi_Temp':     Qi_TempDep_40mm_SU_NbRes1_Qi,
             'Qi_Temp_err': Qi_TempDep_40mm_SU_NbRes1_QiErr,
@@ -2300,7 +2301,7 @@ data_dict = {
     },
     'Sample D': {
         'stress':     -41,   
-        'stress_err': 7,
+        'stress_err': 30,#7,
         'Res1': {
             'Qi_Temp':     SU_Nb_10mTorrRes1_Qi,
             'Qi_Temp_err': SU_Nb_10mTorrRes1_QiErr,
@@ -2428,7 +2429,7 @@ data_dict = {
     },
     'Sample E': {
         'stress':     62.5,   
-        'stress_err': 12.1,
+        'stress_err': 43,#12.1,
         'Res1': {
             'Qi_Temp':     CU_to_SU_WaferTradeRes1_Qi,
             'Qi_Temp_err': CU_to_SU_WaferTradeRes1_QiErr,
@@ -2492,7 +2493,7 @@ data_dict = {
     },
     'Sample N': {
         'stress':     -368,
-        'stress_err': 3.48,
+        'stress_err': 30,#3.48,
         'Res1': {
             'Qi_Temp':     Qi_TempDep_40mm_SU_Nb_NoJumpersRes1_Qi,
             'Qi_Temp_err': Qi_TempDep_40mm_SU_Nb_NoJumpersRes1_QiErr,
