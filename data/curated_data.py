@@ -2043,9 +2043,10 @@ SU_2mTorr_70mmRes4_PowerFreqErr=np.array([   0.      ,   0.      ,   0.      ,93
 # AllFilm_stress_arr_err = np.array([68, 68, 38, 49, 30, 54, 20, 28, 24, 30])
 
 ### new stress values from fits to the profilometer data
-AllFilm_stress_arr     = np.array([-981.9, -737.4 -598.4, -542.3, -527.4, -408.2, -400.5, -371.3, -373.2, -56.3, 100.3])
+AllFilm_stress_arr     = np.array([-981.9, -737.4, -598.4, -542.3, -527.4, -408.2, -400.5, -371.3, -373.2, -56.3, 100.3])
 AllFilm_stress_arr_err = np.array([81.7, 71.7, 41.4	, 56.5, 33.2, 60.4, 21.8, 32.7, 26.4, 47.2,77.1	])
-
+AllFilm_pressure_arr = np.array([2, 2, 6, 6, 6, 10, 6, 6, 6, 10, 2])#pressure in mtorr
+AllFilm_pressure_arr_err = np.array([0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1])#pressure in mtorr err estimated from measurement accuracy
 AllFilm_XRDAngle_arr     = np.array([38.14, 38.04, 38.11, 38.16, 38.2, 38.42, 38.27, 38.25, 38.26, 38.23])
 AllFilm_XRDAngle_arr_err = np.array([0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01])
 AllFilm_T_c_arr        = np.array([8.93872237205505, 8.97102832794189, 8.97428703308105, 9.19321084022522,
@@ -2054,6 +2055,7 @@ AllFilm_T_c_arr        = np.array([8.93872237205505, 8.97102832794189, 8.9742870
 AllFilm_RRR_arr        = np.array([4.065370258716744, 4.350342352705161, 3.864550409447282, 4.8323850341442744,
                                    5.301182746969648, 3.7906637765411424, 3.819789273393594, 3.3717207935861317,
                                    4.07549353178234,  2.9062679494849344])
+
 AllFilm_T_c_err_arr    = np.array([0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05])#estimated errors by myself and Maciej
 AllFilm_RRR_err_arr    = np.array([0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1 ])
 AllFilm_T_c_stdev   = np.array([0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1])
@@ -3297,6 +3299,8 @@ data_dict = {
             'T_c_err':    AllFilm_T_c_err_arr,
             'RRR':        AllFilm_RRR_arr,
             'RRR_err':    AllFilm_RRR_err_arr,
+            'Pressure':   AllFilm_pressure_arr,
+            'Pressure_err':AllFilm_pressure_arr_err,
         },
     },
 }
