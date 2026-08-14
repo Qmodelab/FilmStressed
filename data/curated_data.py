@@ -2045,6 +2045,8 @@ SU_2mTorr_70mmRes4_PowerFreqErr=np.array([   0.      ,   0.      ,   0.      ,93
 ### new stress values from fits to the profilometer data
 AllFilm_stress_arr     = np.array([-981.9, -737.4, -598.4, -542.3, -527.4, -408.2, -400.5, -371.3, -373.2, -56.3, 100.3])
 AllFilm_stress_arr_err = np.array([81.7, 71.7, 41.4	, 56.5, 33.2, 60.4, 21.8, 32.7, 26.4, 47.2,77.1	])
+AllFilm_distance_arr = np.array([30,70,30,30,30,30,70,70,70,70])
+AllFilm_distance_err = np.array([1,1,1,1,1,1,1,1,1,1])
 AllFilm_pressure_arr = np.array([2, 2, 6, 6, 6, 10, 6, 6, 6, 10, 2])#pressure in mtorr
 AllFilm_pressure_arr_err = np.array([0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1])#pressure in mtorr err estimated from measurement accuracy
 AllFilm_XRDAngle_arr     = np.array([38.14, 38.04, 38.11, 38.16, 38.2, 38.42, 38.27, 38.25, 38.26, 38.23])
@@ -3301,6 +3303,8 @@ data_dict = {
             'RRR_err':    AllFilm_RRR_err_arr,
             'Pressure':   AllFilm_pressure_arr,
             'Pressure_err':AllFilm_pressure_arr_err,
+            'Dist':   AllFilm_distance_arr,
+            'Dist_err':AllFilm_distance_arr_err,
         },
     },
 }
